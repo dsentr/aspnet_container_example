@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aspnet_container_example:
+    image: ${DOCKER_REGISTRY-}aspnetcontainerexample
+    build:
+      context: .
+      dockerfile: aspnet_container_example/Dockerfile
