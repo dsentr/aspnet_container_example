@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  aspnet_container_example:
-    environment:
-      - ASPNETCORE_ENVIRONMENT=Development
-    ports:
-      - "80"
